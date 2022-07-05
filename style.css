@@ -13,9 +13,6 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Titillium Web', sans-serif;
 }
 /************* header section **********/
-header{
- 
-}
 .top-banner{
     height: 100vh;
     position: relative;
@@ -28,28 +25,22 @@ header{
     display: flex;
     justify-content: space-between;
     max-width: 1300px;
-    margin: auto;
-    
-    
+    margin: auto; 
 }
 .main-nav{
     display: flex;
     margin:35px 0px;
-    width: auto;
-   
+    width: auto; 
 }
 .main-nav li{
     text-transform: uppercase;
-    margin-left: 25px;
-    
+    margin-left: 25px;   
 }
-
 .main-nav a{
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     color: black;
-    
 }
 .main-nav a:hover{
     color: tomato;
