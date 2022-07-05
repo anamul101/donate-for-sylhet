@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Titillium Web', sans-serif;
+}
+/************* header section **********/
+header{
+ 
+}
+.top-banner{
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.645),rgba(0, 0, 0, 0.645)), url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    
+    
+}
+.main-nav{
+    display: flex;
+    margin:35px 0px;
+    width: auto;
+   
+}
+.main-nav li{
+    text-transform: uppercase;
+    margin-left: 25px;
+    
+}
+
+.main-nav a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+.main-nav a:hover{
+    color: tomato;
+}
+ul li{
+    list-style: none;    
+}
+.logo a{
+    height: 50px;
+    width: auto;
+    text-decoration: none;
+    color: tomato;
+    font-size: 40px;
+    font-weight: bold;
+    margin:20px 0px;
+    display: block;
+}
+.banner-text{
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align:center;
+    color: white;
+}
+.banner-text h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: rgba(255, 250, 250, 0.873)
+
+}
+.banner-text p{
+    margin-bottom: 40px; 
+    text-align: left;  
+}
+.btn{
+    text-decoration: none;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+}
