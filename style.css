@@ -78,6 +78,9 @@ ul li{
     margin-bottom: 40px; 
     text-align: left;  
 }
+span{
+    color: rgba(255, 166, 0, 0.833);
+}
 .btn{
     text-decoration: none;
     padding: 15px 25px;
@@ -179,3 +182,27 @@ input{
 }
 
 /******* donate about section******/
+#donate-about{
+    max-width: 1200px;
+    padding: 60px 0px;
+    margin: auto;
+}
+.about-flex{
+    display: flex;
+}
+.about-title{
+    width: 50%;
+}
+.about-title h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.about-title img{
+    width: 80%;
+    height: 500px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
