@@ -206,3 +206,11 @@ input{
     margin-left: 25px;
     border-radius: 10px;
 }
+
+/**********donate ubdate********/
+#updates-section{
+    max-width: 1200px;
+    padding: 60px 0px;
+    margin: auto;
+    text-align: center;
+}
