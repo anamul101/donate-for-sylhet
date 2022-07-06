@@ -214,3 +214,56 @@ input{
     margin: auto;
     text-align: center;
 }
+.subscribe{
+    width:600px;
+    background-color: oldlace;
+    margin: auto;
+    padding: 40px 0px;
+}
+.input-box{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    text-align: left;
+    
+}
+.input-box input{
+    outline: none;
+
+}
+.submit{
+    background-color: tomato;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+}
+.email{
+    display: block;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    width: 200px;
+    padding: 10px;
+    margin-left:0;
+    background-color:rgba(255, 166, 0, 0.251);
+    border-radius: 5px 0px 0px 5px;
+}
+
+/********** footer section********/
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
+footer h1{
+    font-size: 40px;
+    color: rgb(239, 60, 29);
+    margin-bottom: 20px;
+}
